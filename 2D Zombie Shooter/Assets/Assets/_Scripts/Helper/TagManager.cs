@@ -28,4 +28,11 @@ public class TagManager
     public static string DEAD_PARAMETER = "Dead";
     public static string RANDOM_PARAMETER = "Random";
     public static string ZOMBIE_MOVE_PARAMETER = "Move";
+
+    //LEVEL NAMES
+    public static string LEVEL_1_NAME = "GamePlay 1";
+    public static string LEVEL_2_NAME = "GamePlay 2";
+    public static string LEVEL_3_NAME = "GamePlay 3";
+    public static string LEVEL_4_NAME = "GamePlay 4";
+    public static string MAIN_MENU_NAME = "MainMenu";
 }

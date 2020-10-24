@@ -16,12 +16,6 @@ public class PlayerMove : MonoBehaviour
         playerAnimation = GetComponent<PlayerAnimation>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void FixedUpdate()
     {
         Move();

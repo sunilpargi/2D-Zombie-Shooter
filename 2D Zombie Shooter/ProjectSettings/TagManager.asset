@@ -8,6 +8,10 @@ TagManager:
   - Enemy
   - RocketMissile
   - PlayerHealth
+  - Bullet
+  - FireBullet
+  - Fence
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -17,10 +21,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet
+  - ZombieHealth
+  - PlayerHealth
   - 
   - 
   - 
@@ -48,11 +52,11 @@ TagManager:
   - name: Road
     uniqueID: 3054581785
     locked: 0
-  - name: Wall
-    uniqueID: 147815337
-    locked: 0
   - name: Move
     uniqueID: 436127061
+    locked: 0
+  - name: Wall
+    uniqueID: 147815337
     locked: 0
   - name: Player
     uniqueID: 1242698989
